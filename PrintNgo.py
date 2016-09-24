@@ -8,15 +8,14 @@ print(enum_list)
 while True:
    try:
       user_choice = int(input('\n' "Documents # you want to print: "))
+      break
    except ValueError:
             print("Sorry, that isn't a valid choice")
             continue
    else:
-      break
+     break
    if user_choice >= 0:
-      print (file_list[user_choice])
+     print (file_list[user_choice])
       #os.startfile("C:/Python27/Programs/PrintNgo/Files2print/doc0.docx", "print")
    else:
       print ("This # does not reffer to a document")
-
-print(file_
